@@ -39,12 +39,7 @@ This project follows a simple agent-based design. Each Linux host runs two Bash 
 
 The system consists of multiple Linux hosts connected to a single PostgreSQL database. Each host runs a monitoring agent that sends data to the database.
 
-```
-
-<img width="676" height="581" alt="image" src="https://github.com/user-attachments/assets/bdafa137-9ce6-4415-a481-0a081631293e" />
-
-
-
+<img width="676" height="581" alt="image" src="https://github.com/user-attachments/assets/560fd285-384e-4faa-bf2e-dd3fe8a1282f" />
 
 ```
 ### Scripts
