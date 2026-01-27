@@ -1,5 +1,3 @@
-\c host_agent;
-
 -- switch to host_agent database
 \c host_agent;
 
