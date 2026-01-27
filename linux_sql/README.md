@@ -41,7 +41,7 @@ The system consists of multiple Linux hosts connected to a single PostgreSQL dat
 
 ```
 
-<img width="676" height="581" alt="image" src="linux_sql/assets/linux_monitoring_project_diagram.jpg"/>
+<img width="676" height="581" alt="image" src="https://github.com/user-attachments/assets/bdafa137-9ce6-4415-a481-0a081631293e" />
 
 
 ```
