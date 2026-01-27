@@ -41,6 +41,10 @@ The system consists of multiple Linux hosts connected to a single PostgreSQL dat
 
 <img width="676" height="581" alt="image" src="https://github.com/user-attachments/assets/560fd285-384e-4faa-bf2e-dd3fe8a1282f" />
 
+
+
+
+```
 ```
 ### Scripts
 psql_docker.sh and host_info.sh manages the PostgreSQL database using Docker. It can create, start, and stop the database container.
