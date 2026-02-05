@@ -1,0 +1,83 @@
+name: "Joby Chacko"
+
+github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_JobyChacko"
+
+summary: >
+  Certified Databricks Data Engineer Associate with hands-on experience building data pipelines, cleaning datasets, and working with cloud platforms. 
+  Strong foundation in Python and SQL, with experience using AWS and Databricks. 
+  Detail-oriented and proactive, with a passion for automation, analytics, and AI-driven business applications. 
+  Eager to contribute to innovative, data-driven projects in a collaborative and professional environment while growing as a data engineering and technical consulting professional.
+
+skills:
+  proficient:
+    - Python
+    - SQL
+    - Databricks
+    - ETL Pipelines
+    - AWS
+  competent:
+    - Snowflake
+    - Apache Airflow
+    - dbt Core
+    - Docker
+    - Looker Studio
+  familiar:
+    - BigQuery
+    - Data Modeling
+    - Data Quality Testing
+    - SLA Monitoring
+    - Cloud Platforms
+
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url: "/linux_sql"
+    description: >
+      Developed a Linux monitoring system to collect and analyze server metrics, implemented using Bash, PostgreSQL, Docker, and SQL, tested via validation queries and manual checks, and deployed with cron automation to improve system visibility and performance tracking.
+
+  - name: "PostgreSQL Practice Project?Club Data System"
+    git_url: "/sql"
+    description: >
+      Designed a relational club management database, implemented using PostgreSQL and advanced SQL queries, tested with analytical and integrity validations, and deployed in a local development environment to analyze booking trends, member activity, and facility utilization.
+
+highlighted_projects:
+  - name: "CI/CD Pipeline Deployment for a Python Web Application"
+    git_url: ""
+    description: >
+      Built a Python web application, implemented CI/CD using Jenkins, Docker, AWS, and GitHub, tested with automated Selenium and manual validation, and deployed to cloud infrastructure to streamline releases, improve reliability, and ensure consistent end-to-end delivery.
+
+professional_experience:
+  - title: "Technical Consultant"
+    company: "Jarvis Consulting Group"
+    duration: "2026-Present"
+    description: >
+      Delivered Linux and SQL-based monitoring solutions by collaborating with cross-functional teams, implementing Bash scripts and PostgreSQL analytics, validating system outputs through testing and peer reviews, and supporting Docker-based deployments to improve operational visibility, reliability, and client-aligned technical documentation.
+
+  - title: "Associate Tech Engineer"
+    company: "Axis Bank Ltd."
+    duration: "2023-2023"
+    description: >
+      Led requirements analysis and stakeholder collaboration for banking systems, translated workflows into acceptance criteria, facilitated User Acceptance Testing, coordinated incident resolution with engineering teams, and supported governance and user enablement processes to improve system reliability, compliance, and internal user adoption.
+
+  - title: "System Engineer"
+    company: "Xmigrate Consultancy Services Pvt. Ltd."
+    duration: "2022-2023"
+    description: >
+      Developed a VM-to-container migration tool by implementing Dockerfile templates with Jinja, testing CLI utilities built with Click, and deploying automated container generation workflows to reduce manual configuration effort and improve portability across JBoss and HTTPD-based application environments.
+
+education:
+  - school_name: "Lambton College Toronto"
+    duration: "2023-2025"
+    degree: "DevOps for Cloud Computing"
+    department: "Computer Science"
+    awards_achievements: []
+
+  - school_name: "Mahatma Gandhi University"
+    duration: "2019-2022"
+    degree: "Bachelor of Computer Applications"
+    department: "Computer Science"
+    awards_achievements: []
+
+others:
+  - title: "Certificates"
+    bullets:
+      - "Databricks Certified Data Engineer Associate"
