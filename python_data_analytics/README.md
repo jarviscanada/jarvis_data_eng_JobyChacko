@@ -30,8 +30,9 @@ This project follows a simplified analytics architecture suitable for a proof-of
 
 4. **Consumption**
    The LGS marketing team can use these insights to inform campaign planning, customer segmentation, and promotional strategies.
-   
-   <img width="2030" height="828" alt="image" src="https://github.com/user-attachments/assets/2b8d0e63-550f-45bf-a7bf-a503db3b9a6a" />
+
+   <img width="960" height="303" alt="image" src="https://github.com/user-attachments/assets/4414f9e1-0e80-4144-8170-4d57f83af91f" />
+
 
 
 ---
