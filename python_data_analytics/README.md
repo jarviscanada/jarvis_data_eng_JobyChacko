@@ -30,12 +30,16 @@ This project follows a simplified analytics architecture suitable for a proof-of
 
 4. **Consumption**
    The LGS marketing team can use these insights to inform campaign planning, customer segmentation, and promotional strategies.
+   
+   <img width="2030" height="828" alt="image" src="https://github.com/user-attachments/assets/2b8d0e63-550f-45bf-a7bf-a503db3b9a6a" />
+
 
 ---
 
 ### Data Analytics and Wrangling
 
-- **Notebook:** Retail Data Analytics Wrangling Notebook
+- **Notebook:** Retail Data Analytics Wrangling Notebook : https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/blob/89d9228cbffc07cd9dbc12030b3bac3b5c3fcd11/python_data_analytics/psql/python_data_wrangling/retail_data_analytics_wrangling_FINAL.ipynb
+
 - **Key analytics performed:**
   - Sales trend analysis (monthly revenue and growth)
   - Customer behavior analysis (new vs existing users)
