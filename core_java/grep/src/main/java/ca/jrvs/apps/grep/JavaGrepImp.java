@@ -115,8 +115,6 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     try {
-
-      // STREAMING IMPLEMENTATION
       Files.lines(inputFile.toPath())
           .forEach(lines::add);
 
