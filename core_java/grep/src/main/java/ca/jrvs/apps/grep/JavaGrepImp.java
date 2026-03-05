@@ -35,6 +35,7 @@ public class JavaGrepImp implements JavaGrep {
     logger.info("Discovered {} file(s) under rootPath='{}'", files.size(), rootPath);
 
     for (File file : files) {
+
       logger.debug("Scanning file: {}", file.getAbsolutePath());
 
       List<String> lines = readLines(file);
@@ -47,7 +48,9 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     logger.info("Total matched line(s): {}", matchedLines.size());
+
     writeToFile(matchedLines);
+
     logger.info("Finished. Output written to '{}'", outFile);
   }
 
@@ -81,7 +84,7 @@ public class JavaGrepImp implements JavaGrep {
     File[] files = dir.listFiles();
 
     if (files == null) {
-      logger.warn("Unable to list files under directory (permission issue or not a directory): {}", rootDir);
+      logger.warn("Unable to list files under directory: {}", rootDir);
       return result;
     }
 
@@ -104,34 +107,43 @@ public class JavaGrepImp implements JavaGrep {
   @Override
   public List<String> readLines(File inputFile) {
 
+    List<String> lines = new ArrayList<>();
+
     if (inputFile == null) {
-      logger.warn("inputFile is null. Returning empty line list.");
-      return new ArrayList<>();
+      logger.warn("inputFile is null. Returning empty list.");
+      return lines;
     }
 
     try {
-      return Files.readAllLines(inputFile.toPath());
+
+      // STREAMING IMPLEMENTATION
+      Files.lines(inputFile.toPath())
+          .forEach(lines::add);
+
     } catch (IOException e) {
-      // Log with stack trace by passing exception as last argument
-      logger.error("Failed to read file: {}", inputFile == null ? "null" : inputFile.getAbsolutePath(), e);
-      return new ArrayList<>();
+      logger.error("Failed to read file {}", inputFile.getAbsolutePath(), e);
     }
+
+    return lines;
   }
 
   /**
-   * Check if a line contains the given regex pattern (passed by the user)
+   * Check if a line contains the given regex pattern
    * @param line
    * @return
    */
   @Override
   public boolean containsPattern(String line) {
+
     if (pattern == null) {
-      logger.error("Regex pattern is not initialized. Did you call setRegex() before process()?");
+      logger.error("Regex pattern is not initialized.");
       return false;
     }
+
     if (line == null) {
       return false;
     }
+
     return pattern.matcher(line).find();
   }
 
@@ -149,10 +161,12 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(outFile))) {
+
       for (String line : lines) {
         writer.write(line);
         writer.newLine();
       }
+
     } catch (IOException e) {
       logger.error("Failed to write output to file: {}", outFile, e);
       throw e;
@@ -176,11 +190,14 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public void setRegex(String regex) {
+
     if (regex == null) {
       throw new IllegalArgumentException("regex cannot be null");
     }
+
     this.regex = regex;
     this.pattern = Pattern.compile(regex);
+
     logger.info("Regex updated and compiled: '{}'", regex);
   }
 
