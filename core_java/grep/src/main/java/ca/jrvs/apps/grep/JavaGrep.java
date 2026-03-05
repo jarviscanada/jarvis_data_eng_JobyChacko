@@ -24,14 +24,14 @@ public interface JavaGrep {
    * @param inputFile
    * @return
    */
-  List<String> readlines(File inputFile);
+  List<String> readLines(File inputFile);
 
   /**
    * Check if a line contains the given regex pattern (passed by the user)
    * @param line
    * @return
    */
-  boolean containsPatters(String line);
+  boolean containsPattern(String line);
 
   /**
    * write lines to a file
@@ -39,12 +39,13 @@ public interface JavaGrep {
    * @throws IOException
    */
   void writeToFile(List<String> lines) throws IOException;
+
   String getRootPath();
   void setRootPath(String rootPath);
+
   String getRegex();
   void setRegex(String regex);
+
   String getOutFile();
   void setOutFile(String outFile);
-
-
 }
