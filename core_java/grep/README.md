@@ -56,20 +56,20 @@ This scans all files inside the `data` directory and writes matching lines to `o
 
 ## Usage
 
-| Argument   | Description                                        |
-|------------|----------------------------------------------------|
-| `regex`    | Regular expression used to match lines             |
-| `rootPath` | Root directory to recursively scan                 |
-| `outFile`  | Output file where matched lines will be written    |
+| Argument   | Description                                     |
+|------------|-------------------------------------------------|
+| `regex`    | Regular expression used to match lines          |
+| `rootPath` | Root directory to recursively scan              |
+| `outFile`  | Output file where matched lines will be written |
 
 **Example Patterns**
 
-| Pattern                  | Description                                        |
-|--------------------------|----------------------------------------------------|
-| `.*Romeo.*Juliet.*`      | Lines containing both "Romeo" and "Juliet"         |
-| `^Enter.*`               | Lines beginning with "Enter"                       |
-| `^$`                     | Empty lines                                        |
-| `William Shakespeare`    | Lines containing the literal string                |
+| Pattern               | Description                                     |
+|-----------------------|-------------------------------------------------|
+| `.*Romeo.*Juliet.*`   | Lines containing both "Romeo" and "Juliet"      |
+| `^Enter.*`            | Lines beginning with "Enter"                    |
+| `^$`                  | Empty lines                                     |
+| `William Shakespeare` | Lines containing the literal string             |
 
 ---
 
@@ -88,7 +88,11 @@ writeToFile(matchedLines)
 
 This logic is implemented in `JavaGrepImp`.
 
+![JavaGrepImp workflow](https://github.com/user-attachments/assets/22be8e90-579f-4668-98be-45d935802301)
+
 The streaming implementation (`JavaGrepStreamImp`) follows the same concept but processes lines lazily using Java Streams and writes matching lines immediately to the output file instead of storing them in memory.
+
+![JavaGrepStreamImp workflow](https://github.com/user-attachments/assets/0537422b-a843-4064-b95d-07dcf527688e)
 
 ---
 
@@ -104,8 +108,6 @@ INFO  Discovered 5 file(s) under rootPath='data'
 INFO  Total matched line(s): 23
 INFO  Finished. Output written to 'output.txt'
 ```
-<img width="1280" height="107" alt="image" src="https://github.com/user-attachments/assets/22be8e90-579f-4668-98be-45d935802301" />
-<img width="1280" height="42" alt="image" src="https://github.com/user-attachments/assets/0537422b-a843-4064-b95d-07dcf527688e" />
 
 ---
 
