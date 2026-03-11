@@ -9,8 +9,8 @@ public class GrepApp {
       System.exit(1);
     }
 
-    JavaGrep app = new JavaGrepImp();
-
+//    JavaGrep app = new JavaGrepImp();
+    JavaGrep app = new JavaGrepStreamImp();
     app.setRegex(args[0]);
     app.setRootPath(args[1]);
     app.setOutFile(args[2]);

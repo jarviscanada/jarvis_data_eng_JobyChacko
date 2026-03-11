@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -64,7 +65,7 @@ public class JavaGrepImp implements JavaGrep {
 
     List<File> result = new ArrayList<>();
 
-    if (rootDir == null || rootDir.isBlank()) {
+    if (rootDir == null || rootDir.isEmpty()) {
       logger.warn("rootDir is null/blank. Returning empty file list.");
       return result;
     }
@@ -153,7 +154,7 @@ public class JavaGrepImp implements JavaGrep {
   @Override
   public void writeToFile(List<String> lines) throws IOException {
 
-    if (outFile == null || outFile.isBlank()) {
+    if (outFile == null || outFile.isEmpty()) {
       logger.error("outFile is null/blank. Cannot write output.");
       throw new IOException("Invalid outFile path");
     }
