@@ -33,13 +33,11 @@ This project follows a simplified analytics architecture suitable for a proof-of
 
    <img width="960" height="303" alt="image" src="https://github.com/user-attachments/assets/4414f9e1-0e80-4144-8170-4d57f83af91f" />
 
-
-
 ---
 
 ### Data Analytics and Wrangling
 
-- **Notebook:** Retail Data Analytics Wrangling Notebook : https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/blob/89d9228cbffc07cd9dbc12030b3bac3b5c3fcd11/python_data_analytics/psql/python_data_wrangling/retail_data_analytics_wrangling_FINAL.ipynb
+- **Notebook:** [Retail Data Analytics Wrangling Notebook](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/blob/89d9228cbffc07cd9dbc12030b3bac3b5c3fcd11/python_data_analytics/psql/python_data_wrangling/retail_data_analytics_wrangling_FINAL.ipynb)
 
 - **Key analytics performed:**
   - Sales trend analysis (monthly revenue and growth)
@@ -56,6 +54,41 @@ Using these analyses, LGS can:
 
 ---
 
+## Key Visualizations and Insights
+
+### Customer Segmentation (RFM)
+
+<img width="502" height="322" alt="image" src="https://github.com/user-attachments/assets/b829a86c-0da9-427f-9280-2cb0cd44d352" />
+
+
+> **Insight:** RFM segmentation shows that a significant portion of the customer base falls into dormant segments, while a smaller group of high-value customers generates the majority of revenue.
+
+> **Relevance:** Customer segmentation allows the business to prioritize retention of valuable customers and develop targeted re-engagement strategies for inactive users.
+
+---
+
+### Revenue Contribution by Customer Segment
+
+<img width="462" height="440" alt="image" src="https://github.com/user-attachments/assets/1b7dfa47-091c-4899-a31a-7a600d827549" />
+
+
+> **Insight:** Revenue analysis shows strong concentration among high-value customers, with Champions and Loyal Customers contributing the majority of total revenue.
+
+> **Relevance:** Understanding revenue concentration helps the business protect its most valuable customers and prioritize marketing efforts where they will have the greatest impact.
+
+---
+
+### Dormant Customer Revenue Recovery
+
+<img width="462" height="340" alt="image" src="https://github.com/user-attachments/assets/9312ebd8-9ba9-4e94-9915-3e41269b7087" />
+
+
+> **Insight:** Dormant customers represent a meaningful portion of historical revenue. Even a modest reactivation rate can generate measurable incremental revenue.
+
+> **Relevance:** Targeted win-back campaigns provide an opportunity to increase revenue using the existing customer base rather than relying solely on new customer acquisition.
+
+---
+
 ## Improvements
 
 If more time were available, the following improvements would be implemented:
@@ -68,4 +101,3 @@ If more time were available, the following improvements would be implemented:
 
 3. **Dashboard & Visualization Layer**
    Develop an interactive dashboard (e.g., Tableau, Power BI, or Streamlit) to allow the marketing team to explore insights without running code.
-
