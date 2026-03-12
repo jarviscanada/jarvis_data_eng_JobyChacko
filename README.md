@@ -16,27 +16,33 @@ Certified Databricks Data Engineer Associate with hands-on experience building d
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JobyChacko](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/linux_sql)]: Developed a Linux monitoring system to collect and analyze server metrics, implemented using Bash, PostgreSQL, Docker, and SQL, tested via validation queries and manual checks, and deployed with cron automation to improve system visibility and performance tracking.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/linux_sql)]: Developed a Linux monitoring system to collect and analyze server metrics using Bash, PostgreSQL, SQL, Docker, and cron automation, validated through SQL queries and manual checks, and deployed scheduled monitoring jobs to improve system visibility and operational performance.
 
 
-**PostgreSQL Practice Project?Club Data System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/sql)]: Designed a relational club management database, implemented using PostgreSQL and advanced SQL queries, tested with analytical and integrity validations, and deployed in a local development environment to analyze booking trends, member activity, and facility utilization.
+**PostgreSQL Practice Project—Club Data System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/sql)]: Designed a relational club management database using PostgreSQL, implemented advanced SQL joins and aggregations, validated outputs through query testing and integrity checks, and generated analytical insights to evaluate booking trends, facility utilization, and member activity.
+
+
+**Retail Data Wrangling and Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/python_data_analytics)]: Developed a retail analytics solution to analyze customer purchasing behavior using Python, Pandas, SQLAlchemy, PostgreSQL, and Jupyter Notebook, validated insights through RFM segmentation and sales trend analysis, and produced data-driven marketing insights to improve customer retention and campaign targeting.
+
+
+**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/core_java/grep)]: Developed a simplified Unix grep tool using Java 8, Maven, Stream API, SLF4J, and Log4j to recursively scan files and match regex patterns, validated functionality through manual testing and logging, and packaged the application as an executable JAR for command-line usage.
 
 
 
 ## Highlighted Projects
-**CI/CD Pipeline Deployment for a Python Web Application**: Built a Python web application, implemented CI/CD using Jenkins, Docker, AWS, and GitHub, tested with automated Selenium and manual validation, and deployed to cloud infrastructure to streamline releases, improve reliability, and ensure consistent end-to-end delivery.
+**CI/CD Pipeline Deployment for a Python Web Application**: Built a Python web application and implemented CI/CD using Jenkins, Docker, AWS, and GitHub, validated deployment with Selenium automated testing and manual checks, and deployed the application to cloud infrastructure to improve release reliability and development efficiency.
 
 
 
 ## Professional Experiences
 
-**Technical Consultant, Jarvis Consulting Group (2026-Present)**: Delivered Linux and SQL-based monitoring solutions by collaborating with cross-functional teams, implementing Bash scripts and PostgreSQL analytics, validating system outputs through testing and peer reviews, and supporting Docker-based deployments to improve operational visibility, reliability, and client-aligned technical documentation.
+**Technical Consultant, Jarvis Consulting Group (2026-Present)**: Delivered Linux monitoring, SQL analytics, and Python retail data solutions by implementing Bash, PostgreSQL, Pandas, and SQLAlchemy workflows, validating outputs through testing and segmentation analysis, and generating insights to support operational monitoring and data-driven marketing strategies.
 
 
-**Associate Tech Engineer, Axis Bank Ltd. (2023-2023)**: Led requirements analysis and stakeholder collaboration for banking systems, translated workflows into acceptance criteria, facilitated User Acceptance Testing, coordinated incident resolution with engineering teams, and supported governance and user enablement processes to improve system reliability, compliance, and internal user adoption.
+**Associate Tech Engineer, Axis Bank Ltd. (2023-2023)**: Led requirements analysis and stakeholder collaboration for banking applications, translated workflows into acceptance criteria, facilitated User Acceptance Testing, coordinated incident resolution with engineering teams, and supported governance and user enablement processes to improve system reliability and regulatory compliance.
 
 
-**System Engineer, Xmigrate Consultancy Services Pvt. Ltd. (2022-2023)**: Developed a VM-to-container migration tool by implementing Dockerfile templates with Jinja, testing CLI utilities built with Click, and deploying automated container generation workflows to reduce manual configuration effort and improve portability across JBoss and HTTPD-based application environments.
+**System Engineer, Xmigrate Consultancy Services Pvt. Ltd. (2022-2023)**: Developed a VM-to-container migration tool by implementing Dockerfile templates using Jinja and Click-based CLI utilities, validated container generation workflows through testing, and automated Dockerfile creation to reduce manual configuration effort and improve application portability.
 
 
 
