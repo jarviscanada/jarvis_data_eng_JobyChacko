@@ -3,10 +3,10 @@ name: "Joby Chacko"
 github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_JobyChacko"
 
 summary: >
-  Certified Databricks Data Engineer Associate with hands-on experience building data pipelines, cleaning datasets, and working with cloud platforms. 
-  Strong foundation in Python and SQL, with experience using AWS and Databricks. 
-  Detail-oriented and proactive, with a passion for automation, analytics, and AI-driven business applications. 
-  Eager to contribute to innovative, data-driven projects in a collaborative and professional environment while growing as a data engineering and technical consulting professional.
+  Certified Databricks Data Engineer Associate with hands-on experience delivering data and technology solutions across analytics, cloud, and cross-functional business environments.
+  Strong foundation in Python, SQL, Databricks, and AWS, with experience translating business needs into structured technical work, coordinating testing and issue resolution, and generating actionable insights from data.
+  Detail-oriented and proactive, with a strong interest in project delivery, stakeholder collaboration, process improvement, and data-driven business applications.
+  Eager to contribute to innovative teams in a project, analytics, or technology-focused role while continuing to grow as a technical consulting professional.
 
 skills:
   proficient:
@@ -16,6 +16,7 @@ skills:
     - ETL Pipelines
     - AWS
   competent:
+    - PySpark
     - Snowflake
     - Apache Airflow
     - dbt Core
@@ -44,6 +45,11 @@ jarvis_projects:
     description: >
       Developed a retail analytics solution to analyze customer purchasing behavior using Python, Pandas, SQLAlchemy, PostgreSQL, and Jupyter Notebook, validated insights through RFM segmentation and sales trend analysis, and produced data-driven marketing insights to improve customer retention and campaign targeting.
 
+  - name: "Retail & Economic Data Analytics with PySpark"
+    git_url: "/spark"
+    description: >
+      Built PySpark-based analytics workflows in Azure Databricks and Apache Zeppelin on Hadoop to clean retail and economic datasets, engineer business metrics, perform monthly sales and customer activity analysis, execute RFM segmentation with window functions, and generate revenue and trend insights using distributed data processing across Hive Metastore, Parquet, HDFS, DBFS, and cloud storage platforms.
+
   - name: "Java Grep Application"
     git_url: "/core_java/grep"
     description: >
@@ -60,13 +66,13 @@ professional_experience:
     company: "Jarvis Consulting Group"
     duration: "2026-Present"
     description: >
-      Delivered Linux monitoring, SQL analytics, and Python retail data solutions by implementing Bash, PostgreSQL, Pandas, and SQLAlchemy workflows, validating outputs through testing and segmentation analysis, and generating insights to support operational monitoring and data-driven marketing strategies.
+      Delivered analytics and technical consulting projects by coordinating requirements, implementing Linux, SQL, Python, and PySpark workflows, validating outputs through testing and segmentation analysis, and translating results into business insights to support stakeholder decision-making, reporting, and operational improvements.
 
   - title: "Associate Tech Engineer"
     company: "Axis Bank Ltd."
     duration: "2023-2023"
     description: >
-      Led requirements analysis and stakeholder collaboration for banking applications, translated workflows into acceptance criteria, facilitated User Acceptance Testing, coordinated incident resolution with engineering teams, and supported governance and user enablement processes to improve system reliability and regulatory compliance.
+      Partnered with business stakeholders, users, and technical teams to support delivery of banking application changes by gathering requirements, mapping workflows, coordinating User Acceptance Testing, tracking issues and dependencies, escalating blockers, and communicating updates to improve delivery alignment, operational continuity, and compliance.
 
   - title: "System Engineer"
     company: "Xmigrate Consultancy Services Pvt. Ltd."
