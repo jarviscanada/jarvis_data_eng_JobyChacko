@@ -56,7 +56,7 @@ jarvis_projects:
   - name: "Databricks Medallion ETL and Lakeflow DLT Analytics"
     git_url: "/Databricks"
     description: >
-      Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables, and built Databricks dashboards for fraud monitoring and stock trend analysis.
+      Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables,and built Databricks dashboards for fraud monitoring and stock trend analysis.
 
   - name: "Java Grep Application"
     git_url: "/core_java/grep"

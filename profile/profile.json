@@ -45,7 +45,7 @@
       "name": "Retail \u0026 Economic Data Analytics with PySpark"
     },
     {
-      "description": "Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables, and built Databricks dashboards for fraud monitoring and stock trend analysis.\n",
+      "description": "Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables,and built Databricks dashboards for fraud monitoring and stock trend analysis.\n",
       "git_url": "/Databricks",
       "name": "Databricks Medallion ETL and Lakeflow DLT Analytics"
     },
