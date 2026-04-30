@@ -4,7 +4,7 @@ github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_JobyChack
 
 summary: >
   Certified Databricks Data Engineer Associate with hands-on experience delivering data and technology solutions across analytics, cloud, and cross-functional business environments.
-  Strong foundation in Python, SQL, Databricks, and AWS, with experience translating business needs into structured technical work, coordinating testing and issue resolution, and generating actionable insights from data.
+  Strong foundation in Python, SQL, Databricks, PySpark, and AWS, with experience translating business needs into structured technical work, coordinating testing and issue resolution, and generating actionable insights from data.
   Detail-oriented and proactive, with a strong interest in project delivery, stakeholder collaboration, process improvement, and data-driven business applications.
   Eager to contribute to innovative teams in a project, analytics, or technology-focused role while continuing to grow as a technical consulting professional.
 
@@ -13,10 +13,13 @@ skills:
     - Python
     - SQL
     - Databricks
-    - ETL Pipelines
-    - AWS
-  competent:
     - PySpark
+    - ETL Pipelines
+  competent:
+    - AWS
+    - Delta Lake
+    - Unity Catalog
+    - Lakeflow Declarative Pipelines
     - Snowflake
     - Apache Airflow
     - dbt Core
@@ -50,6 +53,11 @@ jarvis_projects:
     description: >
       Built PySpark-based analytics workflows in Azure Databricks and Apache Zeppelin on Hadoop to clean retail and economic datasets, engineer business metrics, perform monthly sales and customer activity analysis, execute RFM segmentation with window functions, and generate revenue and trend insights using distributed data processing across Hive Metastore, Parquet, HDFS, DBFS, and cloud storage platforms.
 
+  - name: "Databricks Medallion ETL and Lakeflow DLT Analytics"
+    git_url: "/Databricks"
+    description: >
+      Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables,and built Databricks dashboards for fraud monitoring and stock trend analysis.
+
   - name: "Java Grep Application"
     git_url: "/core_java/grep"
     description: >
@@ -66,7 +74,7 @@ professional_experience:
     company: "Jarvis Consulting Group"
     duration: "2026-Present"
     description: >
-      Delivered analytics and technical consulting projects by coordinating requirements, implementing Linux, SQL, Python, and PySpark workflows, validating outputs through testing and segmentation analysis, and translating results into business insights to support stakeholder decision-making, reporting, and operational improvements.
+      Delivered analytics and technical consulting projects by coordinating requirements, implementing Linux, SQL, Python, PySpark, and Databricks workflows, validating outputs through testing and segmentation analysis, and translating results into business insights to support stakeholder decision-making, reporting, and operational improvements.
 
   - title: "Associate Tech Engineer"
     company: "Axis Bank Ltd."
