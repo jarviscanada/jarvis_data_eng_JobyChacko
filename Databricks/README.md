@@ -44,6 +44,10 @@ Alpha Vantage API
   → Gold (analytics tables)
   → Dashboard
 ```
+<img width="1458" height="740" alt="image" src="https://github.com/user-attachments/assets/94b2f58c-9a90-49d8-9152-5be34a3b566c" />
+
+<img width="1486" height="1082" alt="image" src="https://github.com/user-attachments/assets/fff1a208-b222-468f-bd90-1ded320c8989" />
+
 
 #### Notebooks
 
@@ -79,6 +83,9 @@ Raw Financial Data
   → Gold (fraud analytics aggregates)
   → Dashboard
 ```
+
+<img width="1470" height="544" alt="image" src="https://github.com/user-attachments/assets/08212bee-234d-4e96-9f04-2c1006ea77c2" />
+
 
 #### Notebooks
 
