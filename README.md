@@ -1,15 +1,15 @@
 # Joby Chacko . Jarvis Consulting
 
-Certified Databricks Data Engineer Associate with hands-on experience delivering data and technology solutions across analytics, cloud, and cross-functional business environments. Strong foundation in Python, SQL, Databricks, PySpark, and AWS, with experience translating business needs into structured technical work, coordinating testing and issue resolution, and generating actionable insights from data. Detail-oriented and proactive, with a strong interest in project delivery, stakeholder collaboration, process improvement, and data-driven business applications. Eager to contribute to innovative teams in a project, analytics, or technology-focused role while continuing to grow as a technical consulting professional.
+Certified Databricks Data Engineer Associate with hands-on experience in COBOL, Python, SQL, Databricks, PySpark, AWS, and indexed file processing. Skilled in building data and mainframe-style applications, including CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, and control-break reporting. Interested in mainframe development, banking technology, enterprise modernization, and technical consulting.
 
 
 ## Skills
 
-**Proficient:** Python, SQL, Databricks, PySpark, ETL Pipelines
+**Proficient:** Python, SQL, Databricks, PySpark, ETL Pipelines, COBOL
 
-**Competent:** AWS, Delta Lake, Unity Catalog, Lakeflow Declarative Pipelines, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio
+**Competent:** AWS, Delta Lake, Unity Catalog, Lakeflow Declarative Pipelines, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio, GnuCOBOL, Indexed File Processing, Sequential File Processing, COBOL Copybooks
 
-**Familiar:** BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring, Cloud Platforms
+**Familiar:** BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring, Cloud Platforms, VSAM KSDS Concepts, JCL, Mainframe Application Development, COBOL File Status Codes, Control-Break Reporting
 
 ## Jarvis Projects
 
@@ -28,10 +28,13 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JobyChacko
 **Retail & Economic Data Analytics with PySpark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/spark)]: Built PySpark-based analytics workflows in Azure Databricks and Apache Zeppelin on Hadoop to clean retail and economic datasets, engineer business metrics, perform monthly sales and customer activity analysis, execute RFM segmentation with window functions, and generate revenue and trend insights using distributed data processing across Hive Metastore, Parquet, HDFS, DBFS, and cloud storage platforms.
 
 
-**Databricks Medallion ETL and Lakeflow DLT Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/Databricks)]: Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables,and built Databricks dashboards for fraud monitoring and stock trend analysis.
+**Databricks Medallion ETL and Lakeflow DLT Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/Databricks)]: Built Databricks data engineering pipelines using medallion architecture across two analytics use cases: fraud analytics ETL and stock market analytics DLT. Implemented Bronze, Silver, and Gold layers using PySpark, Delta tables, Unity Catalog, Databricks notebooks, Lakeflow Declarative Pipelines, and Databricks Workflows; ingested raw financial and Alpha Vantage API data, transformed and enriched structured datasets, created dashboard-ready Gold tables, and built Databricks dashboards for fraud monitoring and stock trend analysis.
 
 
 **Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/core_java/grep)]: Developed a simplified Unix grep tool using Java 8, Maven, Stream API, SLF4J, and Log4j to recursively scan files and match regex patterns, validated functionality through manual testing and logging, and packaged the application as an executable JAR for command-line usage.
+
+
+**COBOL Student Registration System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JobyChacko/tree/master/mainframe/StudentRegistrationSystem)]: Developed a menu-driven COBOL student registration application using GnuCOBOL, indexed and sequential file processing, copybooks, and VSAM KSDS-style record management. Implemented separate COBOL modules for file generation, student insertion, update, deletion, keyed and sequential queries, and course-wise reporting using WRITE, READ, READ NEXT, REWRITE, DELETE, START, SORT, RELEASE, and RETURN operations. Used student ID as the indexed record key, implemented file status handling, automatic student ID generation, system-date tracking, and control-break processing to generate structured course reports.
 
 
 
@@ -42,7 +45,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JobyChacko
 
 ## Professional Experiences
 
-**Technical Consultant, Jarvis Consulting Group (2026-Present)**: Delivered analytics and technical consulting projects by coordinating requirements, implementing Linux, SQL, Python, PySpark, and Databricks workflows, validating outputs through testing and segmentation analysis, and translating results into business insights to support stakeholder decision-making, reporting, and operational improvements.
+**Technical Consultant, Jarvis Consulting Group (2026-Present)**: Delivered analytics, mainframe-style application, and technical consulting projects by coordinating requirements, implementing COBOL, Linux, SQL, Python, PySpark, and Databricks solutions, validating outputs through functional testing and data analysis, and translating results into business insights to support stakeholder decision-making, reporting, and operational improvements.
 
 
 **Associate Tech Engineer, Axis Bank Ltd. (2023-2023)**: Partnered with business stakeholders, users, and technical teams to support delivery of banking application changes by gathering requirements, mapping workflows, coordinating User Acceptance Testing, tracking issues and dependencies, escalating blockers, and communicating updates to improve delivery alignment, operational continuity, and compliance.
