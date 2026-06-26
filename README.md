@@ -1,6 +1,6 @@
 # Joby Chacko . Jarvis Consulting
 
-Aspiring mainframe developer with hands-on experience in COBOL, SQL, JCL concepts, GnuCOBOL, and indexed file processing. Skilled in developing and scaling applications using CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, keyed record access, and control-break reporting. Interested in banking technology, enterprise modernization, and technical consulting.
+Aspiring mainframe developer with hands-on experience in COBOL, SQL, JCL concepts, GnuCOBOL, and indexed file processing. Skilled in developing and scaling applications using CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, keyed record access, and control-break reporting. I am Interested in mainframe development because it combines structured programming, data processing, and the responsibility of supporting reliable systems behind large-scale banking operations.
 
 
 ## Skills
