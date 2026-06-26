@@ -1,15 +1,15 @@
 # Joby Chacko . Jarvis Consulting
 
-Certified Databricks Data Engineer Associate with hands-on experience in COBOL, Python, SQL, Databricks, PySpark, AWS, and indexed file processing. Skilled in building data and mainframe-style applications, including CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, and control-break reporting. Interested in mainframe development, banking technology, enterprise modernization, and technical consulting.
+Aspiring mainframe developer with hands-on experience in COBOL, JCL concepts, SQL, GnuCOBOL, and indexed file processing. Skilled in building mainframe-style applications, including CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, keyed record access, and control-break reporting. Interested in mainframe development, banking technology, enterprise modernization, and technical consulting.
 
 
 ## Skills
 
-**Proficient:** Python, SQL, Databricks, PySpark, ETL Pipelines, COBOL
+**Proficient:** COBOL, JCL, SQL, Python, PySpark, ETL Pipelines
 
-**Competent:** AWS, Delta Lake, Unity Catalog, Lakeflow Declarative Pipelines, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio, GnuCOBOL, Indexed File Processing, Sequential File Processing, COBOL Copybooks
+**Competent:** GnuCOBOL, Indexed File Processing, Sequential File Processing, COBOL Copybooks, AWS, Delta Lake, Unity Catalog, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio
 
-**Familiar:** BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring, Cloud Platforms, VSAM KSDS Concepts, JCL, Mainframe Application Development, COBOL File Status Codes, Control-Break Reporting
+**Familiar:** VSAM KSDS Concepts, JCL, Mainframe Application Development, COBOL File Status Codes, Control-Break Reporting, BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring, Cloud Platforms
 
 ## Jarvis Projects
 
