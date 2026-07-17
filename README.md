@@ -1,15 +1,15 @@
 # Joby Chacko . Jarvis Consulting
 
-Aspiring mainframe developer with hands-on experience in COBOL, JCL concepts, SQL, GnuCOBOL, and indexed file processing. Skilled in building mainframe-style applications, including CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, keyed record access, and control-break reporting. Interested in mainframe development, banking technology, enterprise modernization, and technical consulting.
+Aspiring Salesforce Developer with a background in application development, data engineering, banking technology, and technical consulting. Experienced in gathering business requirements, mapping workflows, supporting User Acceptance Testing, developing data-driven applications, validating system changes, and collaborating with business and technical stakeholders. Interested in Salesforce because it combines CRM application development, business process automation, data management, system integration, and the delivery of scalable solutions that improve customer and operational workflows.
 
 
 ## Skills
 
-**Proficient:** COBOL, JCL, SQL, Python, PySpark, ETL Pipelines
+**Proficient:** Data Analysis, SQL, Python, Business Process Analysis, PySpark, ETL Pipelines
 
-**Competent:** GnuCOBOL, Indexed File Processing, Sequential File Processing, COBOL Copybooks, AWS, Delta Lake, Unity Catalog, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio
+**Competent:** Relational Data Modeling, Application Development, Data Integration, REST API Concepts, AWS, Delta Lake, Unity Catalog, Snowflake, Apache Airflow, dbt Core, Docker, Looker Studio
 
-**Familiar:** VSAM KSDS Concepts, JCL, Mainframe Application Development, COBOL File Status Codes, Control-Break Reporting, BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring, Cloud Platforms
+**Familiar:** Salesforce CRM Concepts, Salesforce Objects and Relationships, Mainframe Application Development, BigQuery, Data Modeling, Data Quality Testing, SLA Monitoring
 
 ## Jarvis Projects
 
