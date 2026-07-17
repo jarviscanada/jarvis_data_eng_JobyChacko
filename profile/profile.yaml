@@ -3,21 +3,21 @@ name: "Joby Chacko"
 github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_JobyChacko"
 
 summary: >
-  Aspiring mainframe developer with hands-on experience in COBOL, SQL, JCL concepts, GnuCOBOL, and indexed file processing. Skilled in developing and scaling applications using CRUD operations, copybooks, sequential and indexed files, file status handling, sorting, keyed record access, and control-break reporting. I am Interested in mainframe development because it combines structured programming, data processing, and the responsibility of supporting reliable systems behind large-scale banking operations.
+  Aspiring Salesforce Developer with a background in application development, data engineering, banking technology, and technical consulting. Experienced in gathering business requirements, mapping workflows, supporting User Acceptance Testing, developing data-driven applications, validating system changes, and collaborating with business and technical stakeholders. Interested in Salesforce because it combines CRM application development, business process automation, data management, system integration, and the delivery of scalable solutions that improve customer and operational workflows.
 
 skills:
   proficient:
-    - COBOL
-    - JCL
+    - Data Analysis
     - SQL
     - Python
+    - Business Process Analysis
     - PySpark
     - ETL Pipelines
   competent:
-    - GnuCOBOL
-    - Indexed File Processing
-    - Sequential File Processing
-    - COBOL Copybooks
+    - Relational Data Modeling
+    - Application Development
+    - Data Integration
+    - REST API Concepts
     - AWS
     - Delta Lake
     - Unity Catalog
@@ -27,16 +27,13 @@ skills:
     - Docker
     - Looker Studio
   familiar:
-    - VSAM KSDS Concepts
-    - JCL
+    - Salesforce CRM Concepts
+    - Salesforce Objects and Relationships
     - Mainframe Application Development
-    - COBOL File Status Codes
-    - Control-Break Reporting
     - BigQuery
     - Data Modeling
     - Data Quality Testing
     - SLA Monitoring
-    - Cloud Platforms
 
 jarvis_projects:
   - name: "Linux Cluster Resource Monitoring App"
